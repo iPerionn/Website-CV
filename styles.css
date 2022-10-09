@@ -25,6 +25,7 @@ strong{
 p{
     line-height: 26px;
     font-size: 16px;
+    margin-bottom: 12px;
 }
 
 span{
@@ -43,9 +44,12 @@ div.premiere, div.deuxieme{
     background-color: #1B263B;
     display: flex;
     flex-direction: column;
-    align-items:center;
     border-radius: 24px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+div.premiere{
+    align-items:center;
 }
 
 div.profil {
@@ -69,15 +73,63 @@ img.photoProfil {
 div.bio{
     margin: 16px;
     padding: 12px;
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: #202d47;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
+.footer{
+    height: 56px;
+}
+
+/* FORMATIONS */
+
+.deuxieme{
+    padding: 16px;
+}
+
+.formation{
+    display: flex;
+}
+
+#inter.formation{
+    margin-bottom:16px;
+    margin-top:12px;
+}
+
+div.imgFormations{
+    min-width: 82px;
+    min-height: 82px;
+
+    max-width: 82px;
+    max-height: 82px;
+
+    margin-right: 12px;
+}
+
+img.formationsLogo{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px ;
+}
+
+.annees{
+    color: aliceblue;
+}
+
+.formation-lieu{
+    margin-bottom: 0;
+}
+
+.formation-titre{
+    color: #00A7E1;
+    margin-bottom: 0;
+}
 
 /* NAVIGATION */
 
 div.navBar{
+
     position: fixed;
     display: flex;
     bottom: 0;

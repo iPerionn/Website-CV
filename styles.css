@@ -7,7 +7,7 @@ body{
     background-color: #0D1B2A;
 }
 
-p, h1, h2, h3{
+p, h1, h2, h3, h4{
     margin: 0;
     color:aliceblue;
     font-family: Sans-serif;
@@ -28,6 +28,10 @@ p{
     margin-bottom: 12px;
 }
 
+#last{
+    margin-bottom: 0;
+}
+
 span{
     color: #00A7E1;
     font-family: sans-serif;
@@ -36,10 +40,10 @@ span{
 }
 
 h3{
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 
-div.premiere, div.deuxieme{
+div.premiere, div.deuxieme, .competences{
     margin: 16px;
     background-color: #1B263B;
     display: flex;
@@ -54,8 +58,8 @@ div.premiere{
 
 div.profil {
     background-color: white;
-    height: 120px;
-    width: 120px;
+    height: 156px;
+    width: 156px;
     margin: 24px;
     border-radius: 50%;
     display: flex;
@@ -78,23 +82,51 @@ div.bio{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
+button.cv{
+
+    height: 36px ;
+    min-width: 64px;
+    background-color: #415A77;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00A7E1;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-family: rubik;
+    font-size: medium;
+
+    border-radius: 6px;
+    margin-top: 18px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    
+}
+
 .footer{
     height: 56px;
 }
 
 /* FORMATIONS */
 
-.deuxieme{
+.deuxieme, .competences{
     padding: 16px;
 }
 
 .formation{
     display: flex;
+    margin-bottom:16px;
 }
 
-#inter.formation{
-    margin-bottom:16px;
+#first.formation{
     margin-top:12px;
+}
+
+#last.formation{
+    margin-bottom: 0;
 }
 
 div.imgFormations{
@@ -125,6 +157,59 @@ img.formationsLogo{
     color: #00A7E1;
     margin-bottom: 0;
 }
+
+.formations-titre{
+    display: flex;
+    justify-content: center;
+}
+
+/* COMPETENCES */
+
+.competenceDétail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+#last.competenceDétail{
+    margin-bottom: 0;
+}
+
+.compétenceLogo{
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.competenceImg{
+    width: 100%;
+    height: 100%;
+}
+
+.langueImg{
+    width: 80%;
+    height: 80%;
+}
+
+.competenceMain{
+    display: flex;
+    align-items: center;
+}
+
+.titreCompetence{
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.titreLangue{
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
 
 /* NAVIGATION */
 

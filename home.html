@@ -35,17 +35,80 @@
         </div>
         <h1>Henri Cossais</h1>
         <h2>Etudiant en informatique</h2>
+        <button class="cv">TELECHARGER MON CV</button>
         <div class="bio">
             <h3>Bio</h3>
             <p>Etudiant en 3<sup>ème</sup> année de licence d'informatique, je suis actuellement à la recherche d'un <strong>stage</strong> en tant que <strong>développeur</strong>.</p>
-             <p><strong>Motivé</strong> par l'envie de développer mes compétences, je serais ravis de pouvoir participer à la <strong>conception</strong> et au développement d'une solution numerique.</p>
+            <p id="last"><strong>Motivé</strong> par l'envie de développer mes compétences, je serais ravis de pouvoir participer à la <strong>conception</strong> et au développement d'une solution numerique.</p>
         </div>
     </div>
+
+
+    <div class="competences">
+        <div class="formations-titre"><h3>Compétences</h3></div>
+        <div class="compétences pro">
+        <div class="competenceDétail">
+            <div class="competenceMain">
+                <div class="compétenceLogo">
+                    <img class="competenceImg" src="./Images/Compétences/java.png" alt="">
+                </div>
+                <h4 class="titreCompetence">Java</h4>
+            </div>
+            <progress min="0" max="100" value="70"></progress>
+        </div>
+
+        <div class="competenceDétail">
+            <div class="competenceMain">
+                <div class="compétenceLogo">
+                    <img class="competenceImg" src="./Images/Compétences/html-5.png" alt="">
+                </div>
+                <h4 class="titreCompetence">HTML / CSS</h4>
+            </div>
+            <progress min="0" max="100" value="85"></progress>
+        </div>
+
+        <div class="competenceDétail">
+            <div class="competenceMain">
+                <div class="compétenceLogo">
+                    <img class="competenceImg" src="./Images/Compétences/php.png" alt="">
+                </div>
+                <h4 class="titreCompetence">PHP et SQL</h4>
+            </div>
+            <progress min="0" max="100" value="40"></progress>
+        </div>
+
+        <div class="formations-titre"><h4 class="titreLangue">Langues</h4></div>
+        
+        <div class="competenceDétail">
+            <div class="competenceMain">
+                <div class="compétenceLogo">
+                    <img class="langueImg" src="./Images/Langues/united-kingdom.png" alt="">
+                </div>
+                <h4 class="titreCompetence">Anglais</h4>
+            </div>
+            <progress min="0" max="100" value="75"></progress>
+        </div>
+
+        <div class="competenceDétail" id="last">
+            <div class="competenceMain">
+                <div class="compétenceLogo">
+                    <img class="langueImg" src="./Images/Langues/italy.png" alt="">
+                </div>
+                <h4 class="titreCompetence">Italien</h4>
+            </div>
+            <progress min="0" max="100" value="95"></progress>
+        </div>
+        
+        </div>
+        
+    </div>
+
+
     
     <div class="deuxieme">
-        <h3>Formations</h3>
+        <div class="formations-titre"><h3>Formations</h3></div>
         <div class="formations">
-            <div class="formation" id="inter">
+            <div class="formation" id="first">
                 <div class="imgFormations">
                     <img src="./Images/FormationsLogo/Univ-Tours.png" class="formationsLogo">
                 </div>
@@ -56,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="formation">
+            <div class="formation" id="last">
                 <div class="imgFormations">
                     <img src="./Images/FormationsLogo/LeonardDeVinci_Amboise.png" class="formationsLogo">
                 </div>

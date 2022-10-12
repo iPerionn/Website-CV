@@ -206,8 +206,42 @@ img.formationsLogo{
 }
 
 .titreLangue{
+    color: #00A7E1;
     margin-top: 6px;
     margin-bottom: 12px;
+}
+
+.softskills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills{
+    margin-top:12px ;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #202d47;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    min-width: 32%;
+    height: 62px;
+}
+
+#bas.skill{
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.titreSkill{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
 }
 
 

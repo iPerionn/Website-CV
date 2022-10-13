@@ -1,49 +1,58 @@
-body, html {
-    margin:0;
-    padding:0;
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     background-color: #0D1B2A;
 }
 
-p, h1, h2, h3, h4{
+p,
+h1,
+h2,
+h3,
+h4,
+li {
     margin: 0;
-    color:aliceblue;
+    color: aliceblue;
     font-family: Sans-serif;
 }
 
-h2{
+h2 {
     color: #00A7E1;
     font-size: medium;
 }
 
-strong{
+strong {
     color: #00A7E1;
 }
 
-p{
+p {
     line-height: 26px;
     font-size: 16px;
     margin-bottom: 12px;
 }
 
-#last{
+#last {
     margin-bottom: 0;
 }
 
-span{
+span {
     color: #00A7E1;
     font-family: sans-serif;
     font-size: 12px;
     margin-top: 2px;
 }
 
-h3{
+h3 {
     margin-bottom: 12px;
 }
 
-div.premiere, div.deuxieme, .competences{
+div.premiere,
+div.deuxieme,
+.competences,
+.projets {
     margin: 16px;
     background-color: #1B263B;
     display: flex;
@@ -52,8 +61,8 @@ div.premiere, div.deuxieme, .competences{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-div.premiere{
-    align-items:center;
+div.premiere {
+    align-items: center;
 }
 
 div.profil {
@@ -67,6 +76,7 @@ div.profil {
     align-items: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
+
 img.photoProfil {
     width: 94%;
     height: 94%;
@@ -74,7 +84,7 @@ img.photoProfil {
     border-radius: 50%;
 }
 
-div.bio{
+div.bio {
     margin: 16px;
     padding: 12px;
     border-radius: 12px;
@@ -82,9 +92,9 @@ div.bio{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-button.cv{
+button.cv {
 
-    height: 36px ;
+    height: 36px;
     min-width: 64px;
     background-color: #415A77;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -103,33 +113,35 @@ button.cv{
     padding-left: 24px;
     padding-right: 24px;
 
-    
+
 }
 
-.footer{
+.footer {
     height: 56px;
 }
 
 /* FORMATIONS */
 
-.deuxieme, .competences{
+.deuxieme,
+.competences,
+.projets {
     padding: 16px;
 }
 
-.formation{
+.formation {
     display: flex;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
 
-#first.formation{
-    margin-top:12px;
+#first.formation {
+    margin-top: 12px;
 }
 
-#last.formation{
+#last.formation {
     margin-bottom: 0;
 }
 
-div.imgFormations{
+div.imgFormations {
     min-width: 82px;
     min-height: 82px;
 
@@ -139,44 +151,46 @@ div.imgFormations{
     margin-right: 12px;
 }
 
-img.formationsLogo{
+img.formationsLogo {
     height: 100%;
     width: 100%;
-    border-radius: 12px ;
+    border-radius: 12px;
 }
 
-.annees{
+.annees {
     color: aliceblue;
 }
 
-.formation-lieu{
+.formation-lieu {
     margin-bottom: 0;
 }
 
-.formation-titre{
+.formation-titre {
     color: #00A7E1;
     margin-bottom: 0;
 }
 
-.formations-titre{
+.formations-titre,
+.projets-github {
     display: flex;
     justify-content: center;
 }
 
 /* COMPETENCES */
 
-.competenceDétail{
+.competenceDétail {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 6px;
 }
 
-#last.competenceDétail{
+#last.competenceDétail {
     margin-bottom: 0;
 }
 
-.compétenceLogo{
+.compétenceLogo,
+.technoLogo {
     width: 32px;
     height: 32px;
 
@@ -185,80 +199,128 @@ img.formationsLogo{
     align-items: center;
 }
 
-.competenceImg{
+.competenceImg {
     width: 100%;
     height: 100%;
 }
 
-.langueImg{
+.langueImg {
     width: 80%;
     height: 80%;
 }
 
-.competenceMain{
+.competenceMain {
     display: flex;
     align-items: center;
 }
 
-.titreCompetence{
+.titreCompetence {
     font-size: 14px;
     margin-left: 6px;
 }
 
-.titreLangue{
+.titreLangue {
     color: #00A7E1;
     margin-top: 6px;
     margin-bottom: 12px;
 }
 
-.softskills{
+.softskills {
     display: flex;
     justify-content: space-evenly;
 }
 
-.skills{
-    margin-top:12px ;
+.skills {
+    margin-top: 12px;
     padding: 12px;
     border-radius: 12px;
     background-color: #202d47;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-.skill{
+.skill {
     display: flex;
     justify-content: center;
     min-width: 32%;
     height: 62px;
 }
 
-#bas.skill{
+#bas.skill {
     flex-direction: column;
     justify-content: end;
     align-items: center;
 }
 
-.titreSkill{
+.titreSkill {
     color: aliceblue;
     font-size: 14px;
     font-weight: bold;
     margin: 0;
 }
 
+/* PROJETS */
+
+.h3-projets {
+    margin: 0;
+}
+
+.h3-projet {
+    color: aliceblue;
+    margin-bottom: 6px;
+}
+
+.logoGit {
+    margin: 6px;
+    width: 32px;
+    height: 32px;
+}
+
+.imgGit {
+    width: 100%;
+    height: 100%;
+}
+
+.projet-span {
+    margin: 0;
+    color: aliceblue;
+}
+
+.projets-github {
+    align-items: center;
+}
+
+.titre-projet {
+    display: flex;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+#last.ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: square;
+    margin: 6px;
+}
 
 /* NAVIGATION */
 
-div.navBar{
+div.navBar {
 
     position: fixed;
     display: flex;
     bottom: 0;
     width: 100%;
     height: 56px;
-    background-color:#0D1B2A;
+    background-color: #0D1B2A;
     border-top: 1px solid rgba(128, 128, 128, 0.151);
 }
 
-div.navButton{
+div.navButton {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,12 +330,12 @@ div.navButton{
 
 }
 
-img.navIcons{
+img.navIcons {
     width: 24px;
     height: 24px;
 }
 
-p.iconLabel{
+p.iconLabel {
     font-size: 12px;
     color: #00A7E1;
     margin: 0;

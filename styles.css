@@ -100,6 +100,10 @@ div.bio {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
+.bioDetails {
+    color: rgba(240, 248, 255, 0.85);
+}
+
 button.cv {
 
     height: 36px;
@@ -163,11 +167,16 @@ img.formationsLogo {
 }
 
 .annees {
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.85);
+}
+
+.formation-lieu,
+.details-formation {
+    margin-bottom: 0;
 }
 
 .formation-lieu {
-    margin-bottom: 0;
+    line-height: 22px;
 }
 
 .formation-titre {
@@ -179,6 +188,12 @@ img.formationsLogo {
 .projets-github {
     display: flex;
     justify-content: center;
+}
+
+.details-formation {
+    color: rgba(240, 248, 255, 0.7);
+    font-size: 14px;
+    line-height: 18px;
 }
 
 /* COMPETENCES */
@@ -262,6 +277,7 @@ img.formationsLogo {
     margin: 0;
 }
 
+
 /* PROJETS */
 
 .h3-projets {
@@ -286,6 +302,7 @@ img.formationsLogo {
 }
 
 .projet-span {
+    font-size: 14px;
     margin: 0;
     color: aliceblue;
 }
@@ -316,6 +333,7 @@ ul {
 li {
     list-style-type: square;
     margin: 6px;
+    color: rgba(240, 248, 255, 0.7);
 }
 
 /* NAVIGATION */
@@ -487,6 +505,12 @@ p.iconLabel {
         width: 92px;
     }
 
+    .details-formation {
+        margin-top: 3px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     /* Projets */
 
     .projet-liste {
@@ -538,6 +562,12 @@ p.iconLabel {
     .skills,
     .projet-liste {
         margin-top: 12px;
+    }
+
+    .details-formation {
+        margin-top: 3px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
 }

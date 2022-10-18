@@ -22,6 +22,7 @@ li {
 h2 {
     color: #00A7E1;
     font-size: medium;
+    margin-bottom: 18px;
 }
 
 strong {
@@ -66,6 +67,10 @@ div.premiere {
     align-items: center;
 }
 
+.deuxieme {
+    align-items: center;
+}
+
 .titres-premier {
     display: flex;
     flex-direction: column;
@@ -73,22 +78,19 @@ div.premiere {
 }
 
 div.profil {
-    background-color: white;
-    height: 156px;
-    width: 156px;
+    height: 319px;
+    width: 239px;
     margin: 24px;
-    border-radius: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    border-bottom: 2px solid aliceblue;
 }
 
 img.photoProfil {
-    width: 94%;
-    height: 94%;
+    width: 100%;
+    height: 100%;
     display: block;
-    border-radius: 50%;
 }
 
 div.bio {
@@ -104,7 +106,7 @@ div.bio {
     color: rgba(240, 248, 255, 0.85);
 }
 
-button.cv {
+div.cv {
 
     height: 36px;
     min-width: 64px;
@@ -113,19 +115,27 @@ button.cv {
     border: 2px solid #00A7E1;
     color: aliceblue;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
 
     font-family: rubik;
     font-size: medium;
 
     border-radius: 6px;
-    margin-top: 18px;
 
     padding-left: 24px;
     padding-right: 24px;
 
+    display: flex;
+    align-items: center;
+}
 
+.cv:hover {
+    background-color: #00A7E1;
+}
+
+.dl {
+    display: block;
+    text-decoration: none;
 }
 
 .footer {
@@ -375,7 +385,15 @@ p.iconLabel {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {}
+@media (min-width: 200px) {
+    .navBar {
+        visibility: hidden;
+    }
+
+    .footer {
+        display: none;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 
@@ -434,13 +452,9 @@ p.iconLabel {
     }
 
     div.profil {
-        height: 182px;
-        width: 182px;
-        margin: 32px;
-    }
-
-    button.cv {
-        margin-top: 24px;
+        height: 319px;
+        width: 239px;
+        margin: 24px;
     }
 
     h1 {

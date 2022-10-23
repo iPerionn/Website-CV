@@ -539,8 +539,8 @@ p.iconLabel {
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
 
     p {
         line-height: 32px;
